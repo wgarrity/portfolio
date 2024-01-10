@@ -1,0 +1,17 @@
+titleCard{
+    display: flex;
+    flex-direction: column;
+    color: $text-strong;
+    text-align: start;
+    margin: 0 20px;
+
+    h1{
+        font-weight: 300;
+        line-height: .5;
+    }    
+
+    span{
+        color: $text-weak;
+        font-size: 20px;
+    }
+}
