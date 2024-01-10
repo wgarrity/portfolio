@@ -1,17 +1,24 @@
 titleCard{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
     color: $text-strong;
     text-align: start;
-    margin: 0 20px;
+    margin: 20px 20px 0 20px;
 
     h1{
         font-weight: 300;
-        line-height: .5;
+        margin: 0;
     }    
 
     span{
         color: $text-weak;
-        font-size: 20px;
+        font-size: 1.3em;
+        font-weight: 300;
+    }
+
+    @include respond-to('small') {
+        gap: 0;
     }
 }

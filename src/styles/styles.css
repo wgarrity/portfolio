@@ -11,18 +11,26 @@ Header {
   background: #C1EFF8;
   height: 20px; }
 
-h1 {
-  font-weight: 300;
-  line-height: 1; }
-
-h3 {
-  font-weight: 400;
-  line-height: 0; }
-
 /* Components */
 titleCard {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
   color: #393333;
-  text-align: start; }
+  text-align: start;
+  margin: 0 20px; }
 
-titleCard h3 {
-  color: #AFAFAF; }
+titleCard h1 {
+  font-weight: 300;
+  margin: 0; }
+
+titleCard span {
+  color: #AFAFAF;
+  font-size: 1.3em;
+  font-weight: 300; }
+
+@media (max-width: 632px) {
+  titleCard {
+    margin-top: 20px;
+    gap: 0; } }
