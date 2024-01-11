@@ -1,22 +1,36 @@
-titleCard{
+section.titleCard{
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
+    flex-direction: column;
+    gap: 4px;
     color: $text-strong;
     text-align: start;
-    margin: 20px 20px 0 20px;
 
-    h1{
-        font-weight: 300;
-        margin: 0;
-    }    
+    div{
+        display: flex;
+        place-items: center;
+        gap: 12px;
+
+        h1{
+            font-weight: 300;
+            margin: 0;
+        }
+
+        svg{
+            color: $text-weak;
+            transition: color 0.6s ease-in-out;
+
+            &:hover{
+                color: $text-hover;
+                cursor: pointer;
+            }
+        }
+    }  
 
     span{
         color: $text-weak;
         font-size: 1.3em;
         font-weight: 300;
-    }
+    }  
 
     @include respond-to('small') {
         gap: 0;
