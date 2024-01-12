@@ -24,7 +24,7 @@ const TitleCard = () => {
     };      
 
     const handleCallClick = () => {
-        const phoneNumber = '+7604057360';
+        const phoneNumber = '760-405-7360';
         const telLink = `tel:${phoneNumber}`;
         window.location.href = telLink;
     };    
