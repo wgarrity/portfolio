@@ -21,7 +21,72 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            text-align: start;;
+            text-align: start;
+
+            .riveCard{
+              position: relative;
+              overflow: hidden;                
+              display: flex;
+              justify-content: center;
+              place-items: center;
+              height: 220.141px;
+
+              canvas{
+                  border-radius: 100px;
+                  animation: floatAnimation 15s ease-in-out infinite;
+                  // border: 3px solid hotpink;
+              }
+              
+              @keyframes floatAnimation {
+                0% {
+                  transform: translateY(0) rotate(0deg);
+                }
+                10% {
+                  transform: translateY(-5px) rotate(-2deg);
+                }
+                20% {
+                  transform: translateY(3px) rotate(3deg);
+                }
+                30% {
+                  transform: translateY(-2px) rotate(-1deg);
+                }
+                40% {
+                  transform: translateY(4px) rotate(2deg);
+                }
+                50% {
+                  transform: translateY(0) rotate(0deg);
+                }
+                60% {
+                  transform: translateY(-4px) rotate(2deg);
+                }
+                70% {
+                  transform: translateY(2px) rotate(-3deg);
+                }
+                80% {
+                  transform: translateY(5px) rotate(1deg);
+                }
+                90% {
+                  transform: translateY(-3px) rotate(-2deg);
+                }
+                100% {
+                  transform: translateY(0) rotate(0deg);
+                }
+              }
+
+              .riveWave{
+                position: absolute;
+                width: 640px;
+                z-index: -1;
+                height: 270px;
+              }
+
+              @media (max-width: 950px) {
+                .riveWave{
+                  height: 450px;
+                  width: 750px;
+                }
+              }
+            }
 
             img{
 
