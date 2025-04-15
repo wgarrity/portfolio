@@ -50,17 +50,6 @@ const clientData = [
     },
     {
         id: 5,
-        primaryImage: 'wc-msg-center-01.png',
-        branding: 'Branding-MIE.png',
-        className: 'mie',
-        project: 'MIE WebChart - Message Center',
-        role: 'UI/UX Design',
-        linkPath: 'https://www.figma.com/proto/IKL0HepUQJZUyhhEaOnReY/Message-Center-Redesign-1.0?node-id=2-848&t=RrkDsi4xeTjnUy10-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A848&hide-ui=1',
-        linkTarget: '_blank',
-        linkType: 'Figma',
-    },
-    {
-        id: 6,
         primaryImage: 'wc-2fa-01.png',
         branding: 'Branding-MIE.png',
         className: 'mie',
@@ -71,7 +60,7 @@ const clientData = [
         linkType: 'Figma',
     },     
     {
-        id: 7,
+        id: 6,
         primaryImage: 'cs-highlights.png',
         branding: 'Branding-Cequence.svg',
         className: 'cequence',
@@ -82,7 +71,7 @@ const clientData = [
         linkType: 'Figma',
     },    
     {
-        id: 8,
+        id: 7,
         primaryImage: 'cs-dm-ds-01.png',
         branding: 'Branding-Cequence.svg',
         className: 'cequence',
@@ -93,7 +82,7 @@ const clientData = [
         linkType: 'Figma',
     },
     {
-        id: 9,
+        id: 8,
         primaryImage: 'cs-dm-dash-01.png',
         branding: 'Branding-Cequence.svg',
         className: 'cequence',
@@ -104,7 +93,7 @@ const clientData = [
         linkType: 'Figma',
     },
     {
-        id: 10,
+        id: 9,
         primaryImage: 'cs-dm-inventory-01.png',
         branding: 'Branding-Cequence.svg',
         className: 'cequence',
@@ -115,7 +104,7 @@ const clientData = [
         linkType: 'Figma',
     },           
     {
-        id: 11,
+        id: 10,
         primaryImage: 'qd-highlights.png',
         branding: 'Branding-Quest3.svg',
         className: 'quest',
